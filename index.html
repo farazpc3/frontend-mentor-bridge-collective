@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Bridge Collective | A classroom for every child"
+    />
+    <meta
+      property="og:description"
+      content="We fund schools, train teachers, and measure what works to ensure a classroom for every child."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Bridge Collective | A classroom for every child</title>
+    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header section">
+      <a href="/" class="logo">
+        <span class="logo__circle-dot"></span>
+        Bridge Collective
+      </a>
+
+      <button
+        type="button"
+        class="main-nav__toggle"
+        aria-label="Open menu"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <svg
+          class="main-nav__hamburger-icon"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          aria-hidden="true"
+        >
+          <line x1="3" y1="9" x2="21" y2="9" />
+          <line x1="3" y1="15" x2="21" y2="15" />
+        </svg>
+      </button>
+
+      <!-- Hidden on mobile until the button is clicked -->
+      <nav
+        class="main-nav"
+        id="primary-navigation"
+        aria-label="Main navigation"
+      >
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">About</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Our Work</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Partners</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Annual Report</a>
+          </li>
+          <li class="main-nav__item">
+            <a href="#" class="main-nav__link">Donate</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-content" id="main-content">
+      <!-- Hero Section -->
+      <section class="hero section">
+        <h1 class="hero__title">A classroom for every child.</h1>
+        <p class="hero__text">
+          We fund the schools, train the teachers, and measure what works — so
+          every child we reach today becomes a graduate tomorrow.
+        </p>
+      </section>
+
+      <!-- Stats Grid -->
+      <section class="stats-grid section">
+        <!-- Card 1: Sparkle -->
+        <div class="stats-grid__card">
+          <div class="stats-grid__header">
+            <svg
+              class="stats-grid__icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path
+                d="M12 3C12 7.97056 7.97056 12 3 12C7.97056 12 12 16.0294 12 21C12 16.0294 16.0294 12 21 12C16.0294 12 12 7.97056 12 3Z"
+              />
+            </svg>
+            <data value="2400000" class="stats-grid__number">2.4M</data>
+          </div>
+          <div class="stats-grid-text">
+            <h2 class="stats-grid__title">Students reached</h2>
+            <p class="stats-grid__desc">Across 31 countries since 2011.</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Plus -->
+        <div class="stats-grid__card">
+          <div class="stats-grid__header">
+            <svg
+              class="stats-grid__icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M12 5V19M5 12H19" />
+            </svg>
+            <data value="1284" class="stats-grid__number">1,284</data>
+          </div>
+          <div class="stats-grid-text">
+            <h2 class="stats-grid__title">Schools partnered</h2>
+            <p class="stats-grid__desc">
+              In 14 countries, from Kenya to Guatemala.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 3: Right Arrow -->
+        <div class="stats-grid__card">
+          <div class="stats-grid__header">
+            <svg
+              class="stats-grid__icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M5 12H19M13 6L19 12L13 18" />
+            </svg>
+            <data value="38000" class="stats-grid__number">38K</data>
+          </div>
+          <div class="stats-grid-text">
+            <h2 class="stats-grid__title">Teachers trained</h2>
+            <p class="stats-grid__desc">
+              Equipped with modern tools and methodology.
+            </p>
+          </div>
+        </div>
+
+        <!-- Card 4: Trend Line -->
+        <div class="stats-grid__card">
+          <div class="stats-grid__header">
+            <svg
+              class="stats-grid__icon"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M4 16L10 10L14 14L20 8" />
+              <path d="M15 8H20V13" />
+            </svg>
+            <data value="3.1x" class="stats-grid__number">3.1&times;</data>
+          </div>
+          <div class="stats-grid-text">
+            <h2 class="stats-grid__title">Graduation lift</h2>
+            <p class="stats-grid__desc">
+              Partner schools outperform national averages 3x.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section">
+      <div class="site-footer__content">
+        <p class="site-footer__copyright site-footer__text">
+          &copy; 2026 <a href="/">Bridge Collective</a>
+        </p>
+        <p class="site-footer__info site-footer__text">
+          Registered charity 12345678
+        </p>
+      </div>
+    </footer>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Mila</a>.
+    </div>
+  </body>
+</html>
